@@ -1,0 +1,15 @@
+using UnityEngine;
+
+
+[RequireComponent(typeof(Rigidbody))] //‡æ‘Ë¡componentÕ—µ‚π¡—µ‘
+public class Target : MonoBehaviour
+{
+    private void Start()
+    {
+        gameObject.layer = LayerMask.NameToLayer("Enemy"); //‡ª≈’Ë¬πlayerMask‡ªÁπEnemy 
+    }
+
+
+
+
+}

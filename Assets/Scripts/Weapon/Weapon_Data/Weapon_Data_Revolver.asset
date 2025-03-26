@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309b52abe8a3d7245a133e5236865882, type: 3}
+  m_Name: Weapon_Data_Revolver
+  m_EditorClassIdentifier: 
+  bulletDamage: 10
+  weaponName: SimpleRevolver
+  weaponType: 1
+  reloadSpeed: 2
+  equipmentSpeed: 2.5
+  gunDistance: 6
+  cameraDistance: 6
+  ammoInMagazine: 15
+  magazineCapacity: 15
+  totalReserveAmmo: 60
+  fireRate: 5
+  shootType: 1
+  bulletPerShot: 1
+  baseSpread: 1
+  maxSpread: 3
+  spreadIncreaseRate: 0.35
+  burstAvalible: 0
+  burstActive: 0
+  burstBulletPerShot: 0
+  burstFireRate: 0
+  burstFireDelay: 0.1
